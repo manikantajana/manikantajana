@@ -1,16 +1,225 @@
-### Hi there 👋
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-<!--
-**manikantajana/manikantajana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+.homePage {
+    background-image: url("https://images.unsplash.com/photo-1527824404775-dce343118ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 730px;
+    min-width: 10px;
+    background-size: cover;
+}
 
-Here are some ideas to get you started:
+@media screen and (max-width:767px) {
+    .homePage {
+        background-image: url("https://images.unsplash.com/photo-1574260031597-bcd9eb192b4f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        height: 800px;
+        width: 470px;
+    }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+.homeHead {
+    text-align: center;
+    font-family: 'verdana';
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    padding-top: 120px;
+}
+
+@media screen and (max-width:767px) {
+    .homeHead {
+        padding-top: 80px;
+        color: black;
+    }
+}
+
+.homePara {
+    text-align: center;
+    font-family: 'verdana';
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+}
+
+@media screen and (max-width:767px) {
+    .homePara {
+        font-size: 14px;
+        color: black;
+    }
+}
+
+
+
+
+
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+
+
+}
+
+
+
+
+.menu-item-link {
+    color: #800000;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu-item-link:hover {
+    color: #800000;
+}
+
+.menu-item-card {}
+
+@media screen and (max-width:767px) {
+    .menu-item-card {
+        width: 430px;
+    }
+
+}
+
+
+
+
+
+
+
+
+#navItem1 {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+
+}
+
+.navhead {
+    color: black;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#navItem2 {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+#navItem3 {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+#navItem4 {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+
+
+
+
+
+.follow-us-section {
+    background-color: white;
+    border-color: yellow;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.follow-us-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px
+}
+
+.icon-container {
+    height: 80px;
+    width: 90px;
+    background-color: #faf7e8;
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    margin: 15px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.footer-section {
+    background-color: #5A270F;
+    height: 230px;
+    width: 100vw;
+
+
+}
+
+@media screen and (max-width:767px) {
+    .footer-section {
+        width: 470px;
+    }
+}
+
+.xtr {
+    color: #800000;
+}
+
+
+
+
+
+.footer-section-mail-id {
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+
+    text-align: center;
+}
+
+
+
+
+.icon2 {
